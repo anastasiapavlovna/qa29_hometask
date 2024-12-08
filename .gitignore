@@ -27,3 +27,6 @@ bin/
 
 ### Mac OS ###
 .DS_Store
+.idea
+QA29_hometask.iml
+.gitignore
