@@ -1,14 +1,67 @@
 package lesson4;
 
+import java.util.Arrays;
+
 public class hometask1 {
     public static void main(String[] args) {
 
-        int num = 10;
+        int array[] = new int[]{3, 5, 6, 9, 2};
 
-        if (num % 2 == 0) {
-            System.out.println("chetnoe");
-        } else {
-            System.out.println("nechetnoe");
+        int array2[] = new int[]{1, 16, -1};
+
+        System.out.println(Arrays.toString(array));
+        System.out.println(Arrays.toString(array2));
+
+        // TASK2
+
+        int amount = 0;
+
+        for (int i = 0; i < array.length; i++) {
+
+            amount = amount + 1;
+
         }
+
+        System.out.println(amount);
+
+        // TASK2.B
+
+        int sum = 0;
+
+        for (int i = 0; i < array.length; i++) {
+
+            sum = sum + array[i];
+        }
+
+        System.out.println(sum);
+
+        // TASK2.C
+
+        int max = array[0];
+
+        for (int i = 0; i < array.length; i++) {
+
+            if (array[i] > max) {
+
+                max = array[i];
+            }
+        }
+
+        System.out.println(max);
+
+        // TASK2.D
+
+        int min = array[0];
+
+        for (int i = 0; i < array.length; i++) {
+
+            if (array[i] < min) {
+
+                min = array [i];
+
+            }
+        }
+
+        System.out.println(min);
     }
 }
