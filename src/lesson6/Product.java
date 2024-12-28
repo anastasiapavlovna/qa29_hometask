@@ -2,11 +2,6 @@ package lesson6;
 
 public class Product {
 
-    public enum TypeProduct {
-        TV,
-        MOBILE,
-        AUDIO
-    }
     public int price;
     public String name;
     public boolean isavailable;

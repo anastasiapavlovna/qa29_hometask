@@ -4,7 +4,7 @@ import com.sun.source.tree.BreakTree;
 
 public class Service {
 
-    public int returnPrice (Product[] allproducts, Product.TypeProduct type) {
+    public int returnPrice (Product[] allproducts, TypeProduct type) {
 
         int productsPrice = 0;
         for (int i = 0; i < allproducts.length; i ++) {
@@ -15,7 +15,7 @@ public class Service {
         return productsPrice;
     }
 
-    public int returnAmount (Product[] allproducts, Product.TypeProduct type) {
+    public int returnAmount (Product[] allproducts, TypeProduct type) {
 
         int productAmount = 0;
         for (int i = 0; i < allproducts.length; i ++) {
